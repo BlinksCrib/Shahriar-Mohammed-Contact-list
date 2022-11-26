@@ -44,12 +44,17 @@ code {
 }
 
 .container {
-  max-width: 960px;
+  width: 100%;
+  /* max-width: 960px; */
   margin-right: auto;
   margin-left: auto;
   padding-right: 15px;
   padding-left: 15px;
-  min-height: 10vh;
+  height: 10vh;
+  background-color: white;
+  position: fixed;
+  z-index: 200;
+  top: 0;
 }
 /* .css-2s90m6-MuiAvatar-root:nth-child(2n + 1){
   background-color: red;
@@ -59,6 +64,7 @@ code {
 }
 .container-note {
   width: 100%;
+  margin-top: 15vh;
   /* display: flex;
   justify-content: center;
   align-items: center; */
