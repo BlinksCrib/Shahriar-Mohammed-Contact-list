@@ -17,10 +17,9 @@ const AddContact = ({ handleAddNote, closeModal }) => {
   
 
   const handleSaveClick = (e) => {
-    console.log("hello");
     e.preventDefault()
     if (
-      formField.noteText.trim().length > 0 &&
+      formField.noteName.trim().length > 0 &&
       formField.noteNumber.trim().length > 0 &&
       formField.noteEmail.trim().length > 0
     ) {
@@ -67,7 +66,7 @@ const AddContact = ({ handleAddNote, closeModal }) => {
               <input
                 type='text'
                 placeholder='Name'
-                name='noteText'
+                name='noteName'
                 onChange={handleChange}
                 autoComplete='off'
               />
