@@ -1,2 +1,2 @@
-export { ContactList } from './ContactList'
-export { ContactForm } from './ContactForm'
+export { ShahriarContactList } from './ShahriarContactList'
+export { ShahriarContactForm } from './ShahriarContactForm'
